@@ -12,13 +12,18 @@ https://formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng-ht
 The implementation of one cycle of AES algorithm as follows:
   1) Build two Procedures based on interrupts that reads 128 bits from the user and prints the result on
 the screen.
+
   2) Use Macros to implement SubBytes(), ShiftRows(), MixColumns(), AddRoundKey() modules, all
 work on 128 bits.
+
   3) For the AddRoundkey module consider the used key of FF FF FF FF FF FF FF FF FF FF
+
   4) MixColumns is a bit tough, and needs extra work its clear description is available in this
 document. Try to start with others first to get better feeling:
-                                    http://www.angelfire.com/biz7/atleast/mix_columns.pdf
+http://www.angelfire.com/biz7/atleast/mix_columns.pdf
+
   5) Your main program should use the above Macros and subroutines to read the data from the user
 and finalize 10 stages of AES and print the result on the screen.
+
   6) The usage of EMU8086 as an emulator for this project is encouraged if you prefer using any
 other 8086 emulator it is acceptable.
