@@ -27,3 +27,6 @@ and finalize 10 stages of AES and print the result on the screen.
 
   6) The usage of EMU8086 as an emulator for this project is encouraged if you prefer using any
 other 8086 emulator it is acceptable.
+
+<img width="960" alt="image" src="https://github.com/ssamop/8086-emulator/assets/76449196/84261576-de78-4e74-a3de-b4941b444917">
+
