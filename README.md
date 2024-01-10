@@ -1,4 +1,4 @@
-# An 8086 Implementation of a 128bit Advanced Encyption Standard (AES)
+## An 8086 Implementation of a 128bit Advanced Encyption Standard (AES)
 
 The Advanced Encryption Standard or AES is a symmetric block cipher used by the U.S. government to protect classified information and is implemented in software and hardware throughout the world to encrypt sensitive data. The AES operates on a 128 bit bursts as well as 128 bits key. The complete standard is shown in the document below:
 
@@ -29,4 +29,5 @@ and finalize 10 stages of AES and print the result on the screen.
 other 8086 emulator it is acceptable.
 
 <img width="960" alt="image" src="https://github.com/ssamop/8086-emulator/assets/76449196/84261576-de78-4e74-a3de-b4941b444917">
+<img width="959" alt="image" src="https://github.com/ssamop/8086-emulator/assets/76449196/e22646fb-506d-4d0c-bb2c-387c8d6cd412">
 
